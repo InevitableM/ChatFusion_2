@@ -126,7 +126,6 @@ catch(err){
 }
 });
 
-
 app.post('/fetchchat',async(req,res)=>{
     const {mail, receiver}=req.body;
     console.log(mail,receiver);
